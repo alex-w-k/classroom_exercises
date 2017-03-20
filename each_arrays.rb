@@ -26,11 +26,11 @@ names = []
 names = ["Ilana Corsen", "Lauren Fazah", "Beth Sebatian"]
 
 names.each do |name|
-
-  puts name
+  puts name.
 end
 
 names_nested = [['Ilana', 'Corson'], ['Lauren', 'Fazah'], ['Beth', 'Sebian']]
+
 names_nested.each do |name|
   puts name[0] + " " + name[1]
 end
